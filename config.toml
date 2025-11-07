@@ -2,7 +2,7 @@
 base_url = "https://ada-oeffentliche-verwaltung.de/"
 
 
-
+title = "ADA - Angewandte Datenanalyse "
 theme = "ADA_Theme"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

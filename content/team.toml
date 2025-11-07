@@ -29,7 +29,7 @@ social = [
 [[member]]
 name = "Dr. Heidi Seibold"
 email = "heidi.seibold@digiresacademy.org"
-image = "/images/team/heidi_seibold_1_1_format.jpg"
+image = "/images/team/heidi.jpg"
 description = "Heidi Seibold ist Gründerin der Digital Research Academy. Sie ist promovierte Statistikerin und beschäftigt sich heute vorrangig mit der Verbessung der Qualität in Wissenschaft und Forschung. In ihrem beliebten Newsletter spricht sie über Open Science, gute Wissenschaft und die Zukunft der Forschung."
 social = [
   { title = "Website", url = "https://heidiseibold.com/" },
@@ -75,13 +75,4 @@ image = "/images/team/wiebke_weber_1_1_format_l.jpg"
 description = "Wiebke Weber ist die wissenschaftliche Managerin des Social Data Science and AI (SODA) Labs und unterstützt ADA bei der Organisation von Finanzen, Verträgen und Logistik."
 social = [
   { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/wiebke-weber-4823f52e.html" }
-]
-
-[[member]]
-name = "Dr. Jacob Beck"
-email = "jacob.beck@stat.uni-muenchen.de"
-image = "/images/team/jacob_beck_1_1_format.jpg"
-description = "Jacob Beck promovierte bis Herbst 2025 am Social Data Science and AI Lab (SODA) der LMU. Seine Forschung konzentrierte sich auf Datenqualität in der Entwicklung von KI-Modellen, auf effektive Mensch-KI-Kollaboration sowie auf das Brückenbauen zwischen Sozialwissenschaft und Künstlicher Intelligenz. Nachdem er 2021 selbst Stipendiat an der University of Warwick war, gründete und leitete er 2023 und 2024 das Data Science for Social Good-Programm am Munich Center for Machine Learning mit. Dort betreute er Projekte von Stipendiat:innen, die gemeinsam mit gemeinnützigen und öffentlichen Organisationen an datenbasierten Lösungen für die konkreten Herausforderungen dieser Partner arbeiteten. Auch bei ADA liegt sein Fokus auf der Übersetzungsarbeit zwischen technischer und fachlicher Perspektive, und darauf, Problemstellungen und Lösungsansätze gemeinsam klar zu definieren."
-social = [
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/jacob-beck-c1c60091.html" }
 ]
