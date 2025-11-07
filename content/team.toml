@@ -29,7 +29,7 @@ social = [
 [[member]]
 name = "Dr. Heidi Seibold"
 email = "heidi.seibold@digiresacademy.org"
-image = "/images/team/heidi.jpg"
+image = "/images/team/heidi_seibold_1_1_format.jpg"
 description = "Heidi Seibold ist Gründerin der Digital Research Academy. Sie ist promovierte Statistikerin und beschäftigt sich heute vorrangig mit der Verbessung der Qualität in Wissenschaft und Forschung. In ihrem beliebten Newsletter spricht sie über Open Science, gute Wissenschaft und die Zukunft der Forschung."
 social = [
   { title = "Website", url = "https://heidiseibold.com/" },
