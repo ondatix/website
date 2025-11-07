@@ -22,7 +22,7 @@ aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv e
 {{special()}}
 
 
-{%side_text_block(title="Team",size="big", bg="light", compressed="true")%}
+{%side_text_block(title="Team",size="big", bg="light", compressed="true", text_align="left" )%}
 
 Hochmotiviert und bestens qualifiziert, das sind wir:
 {% end%}  
@@ -31,7 +31,7 @@ Hochmotiviert und bestens qualifiziert, das sind wir:
 
 {{team(data_path='team.toml')}}
 
-{%side_text_block(title="Netzwerk",size="big", bg="light", compressed="true")%}
+{%side_text_block(title="Netzwerk",size="big", bg="light", compressed="true", text_align="left" )%}
 Wir arbeiten eng mit Partnern aus Wissenschaft, Verwaltung und Wirtschaft zusammen und bringen Erfahrung aus Projekten mit diversen Kunden mit.
 {% end%}
 
