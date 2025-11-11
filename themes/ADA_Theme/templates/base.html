@@ -135,7 +135,7 @@
             {% if config.extra.footer.links %}
             <nav class="links">
                 {% for link in config.extra.footer.links %}
-                <a class="link link-hover" href="{{ content::base_path() }}{{ link.url}}">{{
+                <a class="link link-hover" href="{{ link.url}}">{{
                     link.title }}</a>
                 {% endfor %}
             </nav>
