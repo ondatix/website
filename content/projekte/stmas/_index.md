@@ -13,6 +13,10 @@ extra.serie_name="Workshop series"
 
 extra.type=["Workshop"]
 
+extra.cards=[
+  { title = "Musterkonzept", content = "Hier kann man den Protypen für das Musterkonzept herunterladen [Protoyp](Musterkonzept.zip) verfügbar." },
+]
+
 +++
 
 ### Inhalt
