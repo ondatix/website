@@ -4,7 +4,7 @@ email = "malte.schierholz@stat.uni-muenchen.de"
 image = "/images/team/malte_1_1_format_m.jpg"
 description = "Malte Schierholz ist Postdoktorand am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Er ist Teil des nationalen Forschungsdateninfrastruktur Projekts BERD@NFDI, wo er Schulungen für Sozialwissenschaftler:innen entwirft, die unstrukturierte (große) Daten wie Bilder und Textdaten für ihre Analysen nutzen wollen. Ein übergreifendes Thema von Malte Schierholz’ Arbeit ist, dass er gerne darüber nachdenkt, wie Sozialwissenschaftler:innen die Versprechen und Vorteile des maschinellen Lernens am besten nutzen können."
 social = [
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/malte-schierholz-10689cb3.html" }
+  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/malte-schierholz-a5b9ab8a.html" }
 ]
 
 [[member]]
@@ -52,7 +52,7 @@ email = "leonhard.kestel@lmu.de"
 image = "/images/team/leokestel_1_1_format_m.jpg"
 description = "Leonhard Kestel ist Doktorand am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit der Anwendung von Machine Learning Methoden in Sozial-, Geistes- und Geowissenschaften. Speizifisch interessiert er sich für eine faire und interpretierbare Nutzung von KI."
 social = [
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/leonhard-kestel-5952.html" }
+  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/leo-kestel-548f9bb2.html" }
 ]
 
 [[member]]
@@ -63,7 +63,7 @@ description = "Marcel Neunhoeffer ist Postdoktorand am Social Data Science and A
 social = [
   { title = "Website", url = "https://www.marcel-neunhoeffer.com/" },
   { title = "Twitter", url = "https://twitter.com/mneunhoe" },
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/marcel-neunhoeffer-1d0b577b.html" }
+  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/marcel-neunhoeffer-2cbaa704.html" }
 ]
 
 [[member]]
@@ -85,3 +85,11 @@ description = "Wiebke Weber ist die wissenschaftliche Managerin des Social Data 
 social = [
   { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/wiebke-weber-4823f52e.html" }
 ]
+
+
+[[member]]
+name = "Michael König"
+email = "michael.koenig@stmd.bayern.de"
+image = "/images/team/michaelkoenig_1_1_format.jpg"
+description = "Michael König ist Referent im Bayerischen Staatsministerium für Digitales. Sein Ziel ist es, die Entscheidungsfindung in der öffentlichen Verwaltung durch fundierte Datenanalyse zu verbessern und effizienter zu gestalten. Zudem setzt er sich für den verantwortungsvollen Einsatz von Cloud-Technologien ein."
+social = []
