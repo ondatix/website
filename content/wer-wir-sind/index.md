@@ -21,10 +21,14 @@ aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv e
 
 {{special()}}
 
+{%side_text_block(title="Was uns ausmacht",size="big", bg="light", compressed="true", text_align="left" )%}
+
+
+{{sliding_cards(data_path="wer-wir-sind/cards.toml")}}
+{% end%}  
 
 {%side_text_block(title="Team",size="big", bg="light", compressed="true", text_align="left" )%}
-
-Hochmotiviert und bestens qualifiziert, das sind wir:
+<!-- empty -->
 {% end%}  
 
 

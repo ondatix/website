@@ -20,7 +20,7 @@ social = [
 name = "Prof. Dr. Frauke Kreuter"
 email = "frauke.kreuter@stat.uni-muenchen.de"
 image = "/images/team/frauke_1_1_format_m.jpg"
-description = "Frauke Kreuter ist Inhaberin des Social Data Science and AI (SODA) Labs an der LMU München, und an der University of Maryland, USA, ist sie Co-Direktorin des Social Data Science Center (SoDa) und Fakultätsmitglied im Joint Program in Survey Methodology (JPSM). Sie ist eine gewählte Fellow der American Statistical Association und erhielt 2020 den Warren Mitofsky Innovators Award der American Association for Public Opinion Research. Neben ihrer akademischen Arbeit ist Frauke Kreuter Gründerin des International Program for Survey and Data Science (IPSDS), das als Reaktion auf die steigende Nachfrage von Forscher:innen und Parktiker:innen nach geeigneten Methoden und Instrumenten für ein sich veränderndes Datenumfeld entwickelt wurde. Sie ist außerdem Mitbegründerin der Coleridge Initiative, deren Ziel es ist, datengestützte Forschung und Politik rund um den Menschen und seine Interaktionen für Programmmanagement, Politikentwicklung und wissenschaftliche Zwecke zu beschleunigen, indem ein effizienter, effektiver und sicherer Zugang zu sensiblen Daten über Gesellschaft und Wirtschaft ermöglicht wird; und Mitbegründerin des deutschsprachigen Podcasts Dig Deep."
+description = "Frauke Kreuter ist Inhaberin des Social Data Science and AI (SODA) Labs an der LMU München, und an der University of Maryland, USA, ist sie Co-Direktorin des Social Data Science Center (SoDa) und Fakultätsmitglied im Joint Program in Survey Methodology (JPSM). Sie ist eine gewählte Fellow der American Statistical Association und erhielt 2020 den Warren Mitofsky Innovators Award der American Association for Public Opinion Research. Neben ihrer akademischen Arbeit ist Frauke Kreuter Gründerin des International Program for Survey and Data Science (IPSDS), das als Reaktion auf die steigende Nachfrage von Forscher:innen und Praktiker:innen nach geeigneten Methoden und Instrumenten für ein sich veränderndes Datenumfeld entwickelt wurde. Sie ist außerdem Mitbegründerin der Coleridge Initiative, deren Ziel es ist, datengestützte Forschung und Politik rund um den Menschen und seine Interaktionen für Programmmanagement, Politikentwicklung und wissenschaftliche Zwecke zu beschleunigen, indem ein effizienter, effektiver und sicherer Zugang zu sensiblen Daten über Gesellschaft und Wirtschaft ermöglicht wird; und Mitbegründerin des deutschsprachigen Podcasts Dig Deep."
 social = [
   { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/frauke-kreuter-825909f7.html" },
   { title = "LinkedIn", url = "https://www.linkedin.com/in/frauke-kreuter-0b6b7a1b/" }
@@ -30,7 +30,7 @@ social = [
 name = "Dr. Heidi Seibold"
 email = "heidi.seibold@digiresacademy.org"
 image = "/images/team/heidi_seibold_1_1_format.jpg"
-description = "Heidi Seibold ist Gründerin der Digital Research Academy. Sie ist promovierte Statistikerin und beschäftigt sich heute vorrangig mit der Verbessung der Qualität in Wissenschaft und Forschung. In ihrem beliebten Newsletter spricht sie über Open Science, gute Wissenschaft und die Zukunft der Forschung."
+description = "Heidi Seibold ist Gründerin der Digital Research Academy. Sie ist promovierte Statistikerin und beschäftigt sich heute vorrangig mit der Verbesserung der Qualität in Wissenschaft und Forschung. In ihrem beliebten Newsletter spricht sie über Open Science, gute Wissenschaft und die Zukunft der Forschung."
 social = [
   { title = "Website", url = "https://heidiseibold.com/" },
   { title = "LinkedIn", url = "https://www.linkedin.com/in/dr-heidi-seibold/" },
@@ -50,7 +50,7 @@ social = [
 name = "Leonhard Kestel"
 email = "leonhard.kestel@lmu.de"
 image = "/images/team/leokestel_1_1_format_m.jpg"
-description = "Leonhard Kestel ist Doktorand am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit der Anwendung von Machine Learning Methoden in Sozial-, Geistes- und Geowissenschaften. Speizifisch interessiert er sich für eine faire und interpretierbare Nutzung von KI."
+description = "Leonhard Kestel ist Doktorand am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit der Anwendung von Machine Learning Methoden in Sozial-, Geistes- und Geowissenschaften. Spezifisch interessiert er sich für eine faire und interpretierbare Nutzung von KI."
 social = [
   { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/leo-kestel-548f9bb2.html" }
 ]

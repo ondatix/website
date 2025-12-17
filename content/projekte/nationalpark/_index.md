@@ -9,7 +9,7 @@ extra.current=false
 extra.logo="Logo_Nationalpark.png"
 extra.start_date="2024-10-1"
 extra.end_date=""
-extra.serie_name="Workshop serie"
+extra.serie_name="Workshop-Serie"
 
 extra.type=["Workshop"]
 extra.tags=["Dateninfrastruktur"] 
