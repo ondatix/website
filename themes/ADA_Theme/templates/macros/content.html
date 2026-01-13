@@ -61,7 +61,7 @@
 
 <div class="card {{ type }} {%if color%}{{ color }}{% endif %}{%if icon %} {{ icon }}{% endif %}">
     <div class="card-title ">{{ title }}</div>
-    <div class="card-content">{{ content | markdown | safe }}</div>
+    <div class="card-content" style="font-size: 1.2em; line-height: 1.2em;">{{ content | markdown | safe }}</div>
     {% if link %}
     <div class="card-link button"><a href="{{ link.url | safe }}">{{ link.text}}</a></div>
     {% endif %}

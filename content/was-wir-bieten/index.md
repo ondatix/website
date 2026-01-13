@@ -1,6 +1,7 @@
 +++
 title="Was wir bieten"
 extra.display_newsletter=false
+extra.sliding_footer=true
 +++
 
 {%side_text_block(title="Was wir bieten", bg="dark", size="big")%}

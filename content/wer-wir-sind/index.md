@@ -1,5 +1,6 @@
 +++
 title="Wer wir sind"
+extra.sliding_footer=true
 
 +++
 
@@ -21,16 +22,13 @@ aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv e
 
 {{special()}}
 
-{%side_text_block(title="Was uns ausmacht",size="big", bg="light", compressed="true", text_align="left" )%}
 
+{{side_text_block(title="Was uns ausmacht", size="big", bg="light", compressed="true", text_align="left")}}
 
 {{sliding_cards(data_path="wer-wir-sind/cards.toml")}}
-{% end%}  
 
-{%side_text_block(title="Team",size="big", bg="light", compressed="true", text_align="left" )%}
-<!-- empty -->
-{% end%}  
 
+{{side_text_block(title="Team", size="big", bg="light", compressed="true", text_align="left" )}}
 
 
 {{team(data_path='team.toml')}}
