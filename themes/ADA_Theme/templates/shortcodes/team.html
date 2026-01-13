@@ -53,29 +53,51 @@
 </div>
  
 <script>
+    function shuffleMembers() {
+        const team = document.querySelector('.team');
+        const members = Array.from(team.children);
+
+        // Fisher–Yates shuffle
+        for (let i = members.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [members[i], members[j]] = [members[j], members[i]];
+        }
+
+        // Re-append in shuffled order
+        members.forEach(member => team.appendChild(member));
+    }
+
     function openFoldInit() {
         const members = document.querySelectorAll('.member');
-     members.forEach(member => {
+
+        members.forEach(member => {
             member.classList.add('init');
+
             const nameWrapper = member.querySelector('.name-wrapper');
             const img = member.querySelector('img');
+
             const toggleFold = () => {
                 member.classList.remove('to-init');
                 const fold = member.querySelector('.fold');
                 const foldWrapper = member.querySelector('.fold-wrapper');
+
                 if (member.classList.contains('open')) {
                     foldWrapper.style.height = "0px";
                 } else {
                     foldWrapper.style.height = fold.offsetHeight + 'px';
                 }
+
                 member.classList.toggle('open');
                 updateScrollIndicator && updateScrollIndicator();
             };
+
             nameWrapper.addEventListener('click', toggleFold);
             if (img) img.addEventListener('click', toggleFold);
         });
     }
+
     document.addEventListener('DOMContentLoaded', function () {
-        openFoldInit();
+        shuffleMembers();   // 👈 randomize order
+        openFoldInit();     // 👈 then attach behavior
     });
 </script>
