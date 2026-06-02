@@ -7,7 +7,7 @@ extra.sliding_footer=true
 
 +++
 
-{{ hero() }}
+<!-- {{ hero() }} -->
 
 {%side_text_block(title="Wir unterstützen die öffentliche Verwaltung mit praxisnahen Workshops zur Digitalisierung",bg="dark", button_url="was-wir-bieten" button_text="Mehr lesen") %}
 

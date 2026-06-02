@@ -1,13 +1,4 @@
 [[member]]
-name = "Dr. Malte Schierholz"
-email = "malte.schierholz@stat.uni-muenchen.de"
-image = "/images/team/malte_1_1_format_m.jpg"
-description = "Malte Schierholz ist Postdoktorand am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Er ist Teil des nationalen Forschungsdateninfrastruktur Projekts BERD@NFDI, wo er Schulungen für Sozialwissenschaftler:innen entwirft, die unstrukturierte (große) Daten wie Bilder und Textdaten für ihre Analysen nutzen wollen. Ein übergreifendes Thema von Malte Schierholz’ Arbeit ist, dass er gerne darüber nachdenkt, wie Sozialwissenschaftler:innen die Versprechen und Vorteile des maschinellen Lernens am besten nutzen können."
-social = [
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/malte-schierholz-a5b9ab8a.html" }
-]
-
-[[member]]
 name = "Julia von Bartenwerffer"
 email = "julia.von.bartenwerffer@stat.uni-muenchen.de"
 image = "/images/team/juliavonbartenwerffer_1_1_format_m.jpg"
@@ -16,15 +7,6 @@ social = [
   { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/julia-von-bartenwerffer-342f7a6d.html" }
 ]
 
-[[member]]
-name = "Prof. Dr. Frauke Kreuter"
-email = "frauke.kreuter@stat.uni-muenchen.de"
-image = "/images/team/frauke_1_1_format_m.jpg"
-description = "Frauke Kreuter ist Inhaberin des Social Data Science and AI (SODA) Labs an der LMU München, und an der University of Maryland, USA, ist sie Co-Direktorin des Social Data Science Center (SoDa) und Fakultätsmitglied im Joint Program in Survey Methodology (JPSM). Sie ist eine gewählte Fellow der American Statistical Association und erhielt 2020 den Warren Mitofsky Innovators Award der American Association for Public Opinion Research. Neben ihrer akademischen Arbeit ist Frauke Kreuter Gründerin des International Program for Survey and Data Science (IPSDS), das als Reaktion auf die steigende Nachfrage von Forscher:innen und Praktiker:innen nach geeigneten Methoden und Instrumenten für ein sich veränderndes Datenumfeld entwickelt wurde. Sie ist außerdem Mitbegründerin der Coleridge Initiative, deren Ziel es ist, datengestützte Forschung und Politik rund um den Menschen und seine Interaktionen für Programmmanagement, Politikentwicklung und wissenschaftliche Zwecke zu beschleunigen, indem ein effizienter, effektiver und sicherer Zugang zu sensiblen Daten über Gesellschaft und Wirtschaft ermöglicht wird; und Mitbegründerin des deutschsprachigen Podcasts Dig Deep."
-social = [
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/frauke-kreuter-825909f7.html" },
-  { title = "LinkedIn", url = "https://www.linkedin.com/in/frauke-kreuter-0b6b7a1b/" }
-]
 
 [[member]]
 name = "Dr. Heidi Seibold"
@@ -54,42 +36,3 @@ description = "Leonhard Kestel ist Doktorand am Social Data Science and AI (SODA
 social = [
   { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/leo-kestel-548f9bb2.html" }
 ]
-
-[[member]]
-name = "Dr. Marcel Neunhoeffer"
-email = "marcel.neunhoeffer@stat.uni-muenchen.de"
-image = "/images/team/marcelneunhoeffer_1_1_format_m.jpg"
-description = "Marcel Neunhoeffer ist Postdoktorand am Social Data Science and AI (SODA) Lab der Ludwig-Maximilians-Universität München. Er forscht an der Schnittstelle von Sozialwissenschaften und Informatik. Marcel Neunhoeffer interessiert sich insbesondere für die Anwendung von Deep-Learning-Algorithmen auf sozialwissenschaftliche Problemstellungen. Sein Fokus liegt dabei auf dem Einsatz von synthetischen Daten und differential privacy um Datenanalyse und Datenschutz auszubalancieren. Darüber hinaus ist Marcel Neunhoeffer Mitbegründer, Mitwirkender und Visualisierer von zweitstimme.org - einer Website, die eine wissenschaftliche Prognose zur Bundestagswahl einem breiten Publikum vermittelt."
-social = [
-  { title = "Website", url = "https://www.marcel-neunhoeffer.com/" },
-  { title = "Twitter", url = "https://twitter.com/mneunhoe" },
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/marcel-neunhoeffer-2cbaa704.html" }
-]
-
-[[member]]
-name = "Felix Henninger"
-email = "felix.henninger@stat.uni-muenchen.de"
-image = "/images/team/felix_henninger_1_1_format_m.jpg"
-description = "Felix Henninger ist wissenschaftlicher Mitarbeiter und Softwareentwickler am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Sein Ziel ist es, fortgeschrittene Methoden der Datenerfassung und -analyse für Forscher:innen und Praktiker:innen zugänglich zu machen."
-social = [
-  { title = "Website", url = "https://felixhenninger.com/" },
-  { title = "GitHub", url = "https://github.com/henninger" },
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/felix-henninger-4823f52e.html" }
-]
-
-[[member]]
-name = "Dr. Wiebke Weber"
-email = "wiebke.weber@stat.uni-muenchen.de"
-image = "/images/team/wiebke_weber_1_1_format_l.jpg"
-description = "Wiebke Weber ist die wissenschaftliche Managerin des Social Data Science and AI (SODA) Labs und unterstützt ADA bei der Organisation von Finanzen, Verträgen und Logistik."
-social = [
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/wiebke-weber-4823f52e.html" }
-]
-
-
-[[member]]
-name = "Michael König"
-email = "michael.koenig@stmd.bayern.de"
-image = "/images/team/michaelkoenig_1_1_format.jpg"
-description = "Michael König ist Referent im Bayerischen Staatsministerium für Digitales. Sein Ziel ist es, die Entscheidungsfindung in der öffentlichen Verwaltung durch fundierte Datenanalyse zu verbessern und effizienter zu gestalten. Zudem setzt er sich für den verantwortungsvollen Einsatz von Cloud-Technologien ein."
-social = []

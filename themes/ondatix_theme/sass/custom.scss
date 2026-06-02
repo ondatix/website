@@ -480,6 +480,12 @@ header {
         z-index: 1;
     }
 
+    .logo-image {
+        height: calc(var(--header-height));
+        width: auto;
+        transform: translateY(10px);
+    }
+
     .logo-text {
         display: none;
         margin-left: 20px;
@@ -559,9 +565,6 @@ header {
         flex-direction: column;
         width: 100%;
         padding: 0;
-
-
-
 
         .tab {
             width: 100%;
