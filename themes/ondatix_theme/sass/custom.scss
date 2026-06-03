@@ -442,6 +442,36 @@ a {
     text-decoration: none;
 }
 
+// Body content hyperlinks: deep-violet on light backgrounds,
+// sunshine-yellow on dark ones. Scoped to prose elements so nav,
+// footer, buttons and card links keep their own styling.
+main,
+.content,
+.container {
+
+    p a,
+    li a,
+    td a {
+        color: var(--deep-violet);
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.bg-dark,
+.deep-violet {
+
+    p a,
+    li a,
+    td a {
+        color: var(--seafoam-green);
+         text-decoration: underline;
+    }
+}
+
 header,
 footer {
     padding: 0 var(--small-padding);

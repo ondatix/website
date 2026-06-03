@@ -43,7 +43,7 @@ links = [
 [extra.footer]
 links = [
     { url = "impressum", title = "Impressum" },
-    { url = "https://github.com/ondatix/", title = "Github" },
+    # { url = "https://github.com/ondatix/", title = "Github" },
     
 ]
 copyright = "Angewandte Datenanalyse für die Öffentliche Verwaltung"

@@ -15,7 +15,8 @@ template="contact.html"
 
 Die ondatix Datenwerkstatt GmbH ist eine Gesellschaft mit beschränkter Haftung mit dem Geschäftsgegenstand der Entwicklung, Betrieb, Vertrieb von Software sowie Erbringung von IT-, Beratungs- und Weiterbildungsdienstleistungen zu Digitalisierung und Data Science.
 
-VAT-Identifikationsnummer (gemäß § 27a Umsatzsteuergesetz): DE **TODO**
+VAT-Identifikationsnummer (gemäß § 27a Umsatzsteuergesetz): *folgt*
+Handelsregister: HRB 311520
 
 ### Verantwortung für den Inhalt gemäß § 18 Abs. 2 MStV
 ondatix Datenwerkstatt GmbH<br>

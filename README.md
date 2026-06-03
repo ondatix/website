@@ -4,10 +4,11 @@
 - [ ] VAT ins Impressum
 - [ ] Texte ersetzen
 - [ ] Hero Bar
-- [ ] Entscheidung für GitHub-Link im Footer
+- [x] Entscheidung für GitHub-Link im Footer
 - [ ] Icons ersetzen
 - [ ] Personenseiten aufpolieren
 - [ ] Connection zu ADA herstellen
+- [ ] Domain hinzufügen
 
 ## Technologies Used
 
