@@ -1,0 +1,278 @@
+{% import "macros/content.html" as content %}
+
+{#
+  Scroll-driven logo hero.
+  Two phrases appear one after another while the five brand shapes drift; the
+  shapes then fly back to their true home (identity transform == the exact
+  ondatix Bildmarke) and the "ondatix" wordmark fades in beside them, completing
+  the centred logo. The mark is the real V2 logo SVG, so the final composition
+  is pixel-perfect by construction.
+#}
+<section class="logo-hero bg-dark">
+    <div class="lh-pin">
+        <div class="lh-stage">
+
+            <svg class="lh-logo-svg" viewBox="0 0 958 348" role="img" aria-label="ondatix"
+                xmlns="http://www.w3.org/2000/svg">
+                <g transform="translate(-199 -853)">
+                    <g class="lh-mark">
+                        <path class="lh-p" data-shape="seafoam" fill="#5BC4A0" fill-rule="evenodd"
+                            d="M410.733 1001.45C420.093 996.715 431.522 1000.46 436.262 1009.82L449.53 1036.02C454.269 1045.38 450.524 1056.81 441.165 1061.55L441.165 1061.55C431.805 1066.29 420.376 1062.54 415.636 1053.18L402.368 1026.98C397.629 1017.62 401.374 1006.19 410.733 1001.45Z" />
+                        <path class="lh-p" data-shape="white" fill="#FFFFFF" fill-rule="evenodd"
+                            d="M345.783 873.192C355.143 868.452 366.572 872.198 371.312 881.557L371.312 881.557C376.051 890.917 372.306 902.346 362.946 907.086L362.946 907.086C353.587 911.825 342.157 908.08 337.418 898.72L337.418 898.72C332.678 889.361 336.424 877.931 345.783 873.192Z" />
+                        <path class="lh-p" data-shape="yellow" fill="#FFC947" fill-rule="evenodd"
+                            d="M372.842 911.938C378.932 908.854 386.368 911.291 389.452 917.381L396.983 932.252C400.066 938.342 397.63 945.779 391.54 948.862L379.699 954.858C373.609 957.942 366.173 955.505 363.089 949.416L355.558 934.544C352.474 928.454 354.911 921.018 361.001 917.934Z" />
+                        <path class="lh-p" data-shape="purple-long" fill="#B6A6F6" fill-rule="evenodd"
+                            d="M299.409 1026.67C294.67 1017.31 298.415 1005.88 307.775 1001.14L460.456 923.827C469.815 919.088 481.245 922.833 485.985 932.193L485.984 932.193C490.724 941.552 486.979 952.982 477.619 957.721L324.938 1035.04C315.578 1039.78 304.149 1036.03 299.409 1026.67Z" />
+                        <path class="lh-p" data-shape="purple-short" fill="#B6A6F6" fill-rule="evenodd"
+                            d="M336.57 1007.85C331.83 998.495 335.575 987.065 344.935 982.326L437.221 935.593C446.58 930.854 458.01 934.599 462.75 943.959L462.75 943.959C467.489 953.318 463.744 964.748 454.384 969.487L362.098 1016.22C352.739 1020.96 341.309 1017.21 336.57 1007.85Z" />
+                    </g>
+                    <g class="lh-word">
+                        <text fill="#FFFFFF" font-family="Funnel Sans,Funnel Sans_MSFontService,sans-serif"
+                            font-weight="400" font-size="165" transform="matrix(1 0 0 1 467.707 1061)">o</text>
+                        <text fill="#FFFFFF" font-family="Funnel Sans,Funnel Sans_MSFontService,sans-serif"
+                            font-weight="400" font-size="165" transform="matrix(1 0 0 1 561.093 1061)">ndati</text>
+                        <text fill="#FFFFFF" font-family="Funnel Sans,Funnel Sans_MSFontService,sans-serif"
+                            font-weight="400" font-size="165" transform="matrix(1 0 0 1 934.635 1061)">x </text>
+                    </g>
+                </g>
+            </svg>
+
+            <div class="lh-phrases">
+                <h2 class="lh-phrase" data-phrase="1">Datenbasierte Verwaltung</h2>
+                <h2 class="lh-phrase" data-phrase="2">mit Open Source Software</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .logo-hero {
+        /* scroll runway: how far you scroll to play the whole sequence */
+        height: 360vh;
+        padding: 0;
+        position: relative;
+    }
+
+    .lh-pin {
+        position: sticky;
+        top: var(--header-height);
+        height: calc(100vh - var(--header-height));
+        height: calc(100svh - var(--header-height));
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lh-stage {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* --- the logo (mark + wordmark) ------------------------------------- */
+    .lh-logo-svg {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: min(86vw, 760px);
+        height: auto;
+        overflow: visible;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        will-change: transform;
+    }
+
+    .lh-mark .lh-p {
+        transform-box: fill-box;
+        transform-origin: center;
+        will-change: transform;
+    }
+
+    .lh-word {
+        opacity: 0;
+        will-change: opacity;
+    }
+
+    /* Before JS: show the finished logo so it never looks broken */
+    .logo-hero:not(.lh-ready) .lh-word {
+        opacity: 1;
+    }
+
+    /* --- phrases -------------------------------------------------------- */
+    .lh-phrases {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 var(--big-padding);
+        z-index: 3;
+        pointer-events: none;
+    }
+
+    .lh-phrase {
+        position: absolute;
+        margin: 0;
+        font-weight: 300;
+        line-height: 1.05;
+        color: var(--background-color);
+        font-size: clamp(34px, 7vw, 84px);
+        max-width: 14ch;
+        opacity: 0;
+        will-change: opacity, transform;
+    }
+
+    .logo-hero:not(.lh-ready) .lh-phrase[data-phrase="1"] {
+        opacity: 1;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .logo-hero {
+            height: auto;
+        }
+
+        .lh-pin {
+            position: static;
+            height: calc(100vh - var(--header-height));
+        }
+
+        .lh-phrases {
+            display: none;
+        }
+
+        .lh-word {
+            opacity: 1;
+        }
+    }
+</style>
+
+<script>
+    (function () {
+        const section = document.querySelector('.logo-hero');
+        if (!section) return;
+
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        const pin = section.querySelector('.lh-pin');
+        const svg = section.querySelector('.lh-logo-svg');
+        const markGroup = section.querySelector('.lh-mark');
+        const wordGroup = section.querySelector('.lh-word');
+        const pathEls = Array.from(section.querySelectorAll('.lh-p'));
+        const phraseEls = Array.from(section.querySelectorAll('.lh-phrase'));
+
+        section.classList.add('lh-ready');
+
+        // --- helpers --------------------------------------------------------
+        const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+        const lerp = (a, b, t) => a + (b - a) * t;
+        function smooth(a, b, t) {
+            const u = clamp((t - a) / (b - a));
+            return u * u * (3 - 2 * u);
+        }
+
+        // Scatter layouts per shape, in SVG user units (translate) + degrees.
+        // kf[0] = phrase 1 scatter, kf[1] = phrase 2 scatter.
+        // The home/assembled state is the identity transform (the real Bildmarke).
+        const layouts = {
+            'seafoam':      [{ x: 40, y: 320, r: 25 },  { x: -300, y: -140, r: -30 }],
+            'white':        [{ x: -360, y: 140, r: 0 }, { x: 260, y: -300, r: 0 }],
+            'yellow':       [{ x: 340, y: -100, r: 0 }, { x: -340, y: 240, r: 0 }],
+            'purple-long':  [{ x: -140, y: -320, r: -28 }, { x: 220, y: 200, r: 30 }],
+            'purple-short': [{ x: 360, y: 300, r: 32 }, { x: -80, y: 340, r: -42 }],
+        };
+
+        // --- geometry: where the mark sits inside the 958x348 logo ----------
+        // viewBox is 0..958 x 0..348; the inner <g> is translated by (-199,-853),
+        // so a path coord (px,py) renders at (px-199, py-853).
+        let markCx = 287, markCy = 174, scale = 1, shiftX = 0, shiftY = 0;
+        const VB_W = 958, VB_H = 348;
+
+        function measure() {
+            const box = markGroup.getBBox();           // in path-coordinate space
+            markCx = box.x + box.width / 2 - 199;       // -> viewBox space
+            markCy = box.y + box.height / 2 - 853;
+            scale = svg.getBoundingClientRect().width / VB_W; // px per user unit
+            // shift needed to move the mark's centre onto the stage centre
+            shiftX = (VB_W / 2 - markCx) * scale;
+            shiftY = (VB_H / 2 - markCy) * scale;
+        }
+
+        // --- render loop ----------------------------------------------------
+        let maxScroll = 1;
+        function computeRange() {
+            maxScroll = Math.max(1, section.offsetHeight - pin.offsetHeight);
+        }
+
+        function render() {
+            ticking = false;
+            const rect = section.getBoundingClientRect();
+            const t = clamp(-rect.top / maxScroll);
+
+            // shapes: scatter1 -> scatter2 -> home (identity)
+            const assemble = smooth(0.40, 0.85, t);
+            pathEls.forEach(el => {
+                const kf = layouts[el.dataset.shape];
+                let x, y, r;
+                if (t <= 0.40) {
+                    const u = smooth(0, 0.40, t);
+                    x = lerp(kf[0].x, kf[1].x, u);
+                    y = lerp(kf[0].y, kf[1].y, u);
+                    r = lerp(kf[0].r, kf[1].r, u);
+                } else {
+                    x = lerp(kf[1].x, 0, assemble);
+                    y = lerp(kf[1].y, 0, assemble);
+                    r = lerp(kf[1].r, 0, assemble);
+                }
+                el.style.transform =
+                    `translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) rotate(${r.toFixed(1)}deg)`;
+            });
+
+            // final scroll: wordmark fades in, logo slides from mark-centred to
+            // full-logo-centred so the finished composition sits in the middle.
+            const c = smooth(0.82, 1.0, t);
+            wordGroup.style.opacity = c.toFixed(3);
+            svg.style.transform =
+                `translate(-50%, -50%) translate(${lerp(shiftX, 0, c).toFixed(1)}px, ${lerp(shiftY, 0, c).toFixed(1)}px)`;
+
+            // phrases, one after another with gentle crossfades
+            const p1 = 1 - smooth(0.20, 0.30, t);
+            const p2 = smooth(0.32, 0.42, t) * (1 - smooth(0.58, 0.66, t));
+            const ops = [p1, p2];
+            phraseEls.forEach((el, i) => {
+                el.style.opacity = ops[i].toFixed(3);
+                el.style.transform = `translateY(${((1 - ops[i]) * 18).toFixed(1)}px)`;
+            });
+        }
+
+        let ticking = false;
+        function onScroll() {
+            if (!ticking) {
+                requestAnimationFrame(render);
+                ticking = true;
+            }
+        }
+
+        function onResize() {
+            measure();
+            computeRange();
+            render();
+        }
+
+        measure();
+        computeRange();
+        render();
+
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', onResize);
+        window.addEventListener('load', onResize);
+        if (document.fonts && document.fonts.ready) {
+            document.fonts.ready.then(onResize);
+        }
+    })();
+</script>

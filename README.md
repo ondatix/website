@@ -3,7 +3,7 @@
 ## TODO
 - [ ] VAT ins Impressum
 - [ ] Texte ersetzen
-- [ ] Hero Bar
+- [x] Hero Bar
 - [x] Entscheidung für GitHub-Link im Footer
 - [ ] Icons ersetzen
 - [ ] Personenseiten aufpolieren

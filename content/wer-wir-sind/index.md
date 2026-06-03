@@ -24,7 +24,7 @@ aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv e
 
 
 
-{{special()}}
+<!-- {{special()}} -->
 
 
 {{side_text_block(title="Was uns ausmacht", size="big", bg="light", compressed="true", text_align="left")}}
