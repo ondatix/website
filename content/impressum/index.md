@@ -1,28 +1,27 @@
 +++
 template="contact.html"
  title="Impressum"
- extra.contact_name="Frauke Kreuter"
- extra.contact_institution="Institut für Statistik"
- extra.contact_address="Ludwigstr. 33 | 80539 München"
+#  extra.contact_name="ondatix Datenwerkstatt GmbH"
+ extra.contact_institution="ondatix Datenwerkstatt GmbH"
+ extra.contact_address="Bayerstr. 77C | 80335 München"
 
 
- extra.contact_phone="+(49) 89 2180 2814"
- extra.contact_email="data-analytics@stat.uni-muenchen.de"
+#  extra.contact_phone=""
+ extra.contact_email="info@ondatix.org"
      
 +++
 
 ### Angaben gemäß § 5 DDG
 
-ADA ist eine Initiative der Ludwig-Maximilians-Universität München.
-Die Ludwig-Maximilians-Universität München ist eine öffentliche Institution des Freistaat Bayern und eine juristische Person des öffentlichen Rechts (Art. 4 Abs. 1 Satz 1 BayHIG). Sie wird gesetzlich vertreten durch ihren Präsidenten, Professor Dr. med. Dr. h.c. Matthias H. Tschöp.
+Die ondatix Datenwerkstatt GmbH ist eine Gesellschaft mit beschränkter Haftung mit dem Geschäftsgegenstand der Entwicklung, Betrieb, Vertrieb von Software sowie Erbringung von IT-, Beratungs- und Weiterbildungsdienstleistungen zu Digitalisierung und Data Science.
 
-VAT-Identifikationsnummer (gemäß § 27a Umsatzsteuergesetz): DE 811205325
+VAT-Identifikationsnummer (gemäß § 27a Umsatzsteuergesetz): DE **TODO**
 
 ### Verantwortung für den Inhalt gemäß § 18 Abs. 2 MStV
-Ludwig-Maximilians-Universität München<br>
-Social Data Science and AI Lab (SODA)<br>
-Prof. Dr. Frauke Kreuter<br>
-Email: [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de)
+ondatix Datenwerkstatt GmbH<br>
+Geschäftsführung:<br>
+Julia von Bartenwerffer & Jacob Beck<br>
+Email: [info@ondatix.org](mailto:info@ondatix.org)
 
 
 ### Haftungsausschluss
@@ -39,9 +38,12 @@ Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unt
 
 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
 
-#### Gestaltung und technische Umsetzung der Website
+<!-- #### Gestaltung und technische Umsetzung der Website
 
 Web Design: [Sara Silva Santos](https://sarasworkplace.pt/), [Allie Heesh](https://www.allieheesh.com/)<br>
-Implementierung: João Verissimo
+Implementierung: João Verissimo -->
+
+#### Copyright
+Website Template: [ADA - Angewandte Datenanalyse für die Öffentliche Verwaltung](https://ada-oeffentliche-verwaltung.de)
 
 <!-- *Website Impressum erstellt durch impressum-generator.de von der Kanzlei Hasselbach* -->

@@ -1,7 +1,7 @@
 +++
 title="Startseite"
 extra.display_newsletter=false
-extra.highlight_project="projekte/gda/_index.md"
+extra.highlight_project="projekte/stmas/_index.md"
 extra.sliding_footer=true
 
 

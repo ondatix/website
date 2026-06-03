@@ -2,19 +2,19 @@
 title = ""
 content = "Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit Daten befähigen."
 type = ""
-color = "green"
+color = "sunshine-yellow"
 link={url="/impressum", text="Kontaktieren Sie uns"}
 
 [[card]]
 title = ""
 content = "Wir wollen echte Probleme verstehen und danach gemeinsam pragmatisch lösen."
 type = ""
-color = "lilac"
+color = "purple"
 link={url="/impressum", text="Kontaktieren Sie uns"}
 
 [[card]]
 title = ""
 content = "Wir wollen Expertise aus verschiedenen Bereichen zusammenbringen."
 type = ""
-color = "salmon"
+color = "seafoam-green"
 link={url="/impressum", text="Kontaktieren Sie uns"}

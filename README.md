@@ -1,11 +1,13 @@
-# ADA Website Documentation
+# ondatix Website Documentation
 
-## Project Title & Overview
-
-**Angewandte Datenanalyse für die öffentliche Verwaltung in Bayern (ADA)**  
-*Applied Data Analysis for Public Administration in Bavaria*
-
-A specialized data science consultancy that provides workshops, training, and technical support to improve data handling capabilities and implement effective digitalization projects.
+## TODO
+- [ ] VAT ins Impressum
+- [ ] Texte ersetzen
+- [ ] Hero Bar
+- [ ] Entscheidung für GitHub-Link im Footer
+- [ ] Icons ersetzen
+- [ ] Personenseiten aufpolieren
+- [ ] Connection zu ADA herstellen
 
 ## Technologies Used
 

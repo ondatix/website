@@ -33,8 +33,8 @@ lazy_async_image = true
 
 [extra.navbar]
 links = [
-    #{ url = "projekte", title = "Projekte" },
-    #{ url = "was-wir-bieten", title = "Was wir Bieten" },
+    { url = "projekte", title = "Projekte" },
+    { url = "was-wir-bieten", title = "Was wir Bieten" },
     { url = "wer-wir-sind", title = "Wer wir sind" },
     { url = "#search", title = "Suche" , class="search"},
     
@@ -42,17 +42,13 @@ links = [
 
 [extra.footer]
 links = [
-    { url = "https://ondatix.de/impressum", title = "Impressum" },
+    { url = "impressum", title = "Impressum" },
     { url = "https://github.com/ondatix/", title = "Github" },
     
 ]
 copyright = "Angewandte Datenanalyse für die Öffentliche Verwaltung"
 
 social= [
-    #{ url = "instagram.com", title = "Instagram" ,icon = "images/instagram.svg"},
-    #{ url = "https://www.linkedin.com/company/ondatix/", title = "LinkedIn" ,icon = "images/linkedin.svg"},
-
+    { url = "https://github.com/ondatix", title = "GitHub", icon = "images/github.svg"},
+    { url = "https://www.linkedin.com/company/113151234/", title = "LinkedIn" ,icon = "images/linkedin.svg"},
 ]
-
-
-

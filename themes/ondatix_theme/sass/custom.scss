@@ -8,15 +8,23 @@ $laptop-large: 1440px;
 $big-screen: 1960px;
 
 :root {
-    --text-color: #292C2D;
-    --background-color: #FFFBF3;
-    --salmon: #FF7550;
-    --green: #CFFF63;
-    --dimmer-green: #ECFEB9;
-    --lilac: #B6A6F6;
-    --purple: #4D57B9;
+    --text-color: #232528;
+    --background-color: #FFFFFF;
+
+    --deep-violet: #2D1B4E;
+    --purple: #B6A6F6;
+    --purple-medium: #D8D1FA;
+    --purple-light: #F0E0FD;
+    --seafoam-green: #5BC4A0;
+    --seafoam-medium: #AEDECE;
+    --seafoam-light: #E5F7F1;
+    --sunshine-yellow: #FFC947;
+    --sunshine-medium: #FFE09A;
+    --sunshine-light: #fff6e0;
+
     --light-gray: #B1AEA8;
     --medium-gray: #707070;
+
     --header-height: 82px;
     --big-padding: 20px;
     --small-padding: 20px;
@@ -38,12 +46,12 @@ html {
 }
 
 ::selection {
-    background-color: var(--green);
+    background-color: var(--sunshine-yellow);
     color: var(--text-color);
 }
-.green ::selection{
+.sunshine-yellow ::selection{
 
-    background-color: var(--lilac) !important;
+    background-color: var(--purple) !important;
     color: var(--text-color) !important;
  
 }
@@ -65,24 +73,24 @@ html {
     }
 }
 
-.lilac {
-    color: var(--text-color);
-    background-color: var(--lilac);
-}
-
-.salmon {
-    color: var(--text-color);
-    background-color: var(--salmon);
-}
-
-.green {
-    color: var(--text-color);
-    background-color: var(--green);
-}
-
 .purple {
-    color: var(--background-color);
+    color: var(--text-color);
     background-color: var(--purple);
+}
+
+.seafoam-green {
+    color: var(--text-color);
+    background-color: var(--seafoam-green);
+}
+
+.sunshine-yellow {
+    color: var(--text-color);
+    background-color: var(--sunshine-yellow);
+}
+
+.deep-violet {
+    color: var(--background-color);
+    background-color: var(--deep-violet);
 }
 
 .white {
@@ -234,7 +242,7 @@ li.tab.search {
     height: 100vh;
     height: 100dvh;
     padding: var(--big-padding);
-    background-color: var(--lilac);
+    background-color: var(--purple);
     opacity: 0;
     display: flex;
     flex-direction: column;
@@ -658,7 +666,7 @@ header {
     top: 0;
     height: 100%;
     width: 0;
-    background-color: var(--green);
+    background-color: var(--sunshine-yellow);
     transition: width 0.2s linear;
 }
 
@@ -1181,7 +1189,7 @@ main>br {
 
 
         .name-wrapper {
-            background-color: var(--green);
+            background-color: var(--sunshine-yellow);
             padding: 12px 20px 18px;
             display: flex;
             align-items: center;
@@ -1246,7 +1254,7 @@ main>br {
             overflow: hidden;
             //height: 300px;
             transition: all 0.4s ease;
-            background-color: var(--green)
+            background-color: var(--sunshine-yellow)
         }
 
         .members-social {
@@ -1372,7 +1380,7 @@ main>br {
             order: 1;
 
             &::before {
-                background-color: var(--green);
+                background-color: var(--sunshine-yellow);
             }
 
             &::after {
@@ -1645,7 +1653,7 @@ main>br {
     }
 
     .back {
-        background-color: var(--green);
+        background-color: var(--sunshine-yellow);
 
         &:after {
             background-image: url(images/plus-reverse.svg);
@@ -1700,7 +1708,7 @@ main>br {
         //     .back {
         //         z-index: 1;
         //         transform: rotateY(180deg);
-        //         background-color: var(--green);
+        //         background-color: var(--sunshine-yellow);
         //     }
 
         //     &.flipped,
@@ -1848,7 +1856,7 @@ main>br {
         .back {
             z-index: 1;
             transform: rotateY(180deg);
-            background-color: var(--green);
+            background-color: var(--sunshine-yellow);
                 display: flex;
                     flex-direction: column;
                     justify-content: space-between;
@@ -1957,17 +1965,17 @@ main>br {
 }
 
 .tag {
-    background-color: var(--salmon);
+    background-color: var(--seafoam-green);
     color: var(--text-color);
     border-radius: 20px;
 }
 
 .tag:first-child {
-    background-color: var(--salmon);
+    background-color: var(--seafoam-green);
 }
 
 .tag:nth-child(1) {
-    background-color: var(--purple);
+    background-color: var(--deep-violet);
 }
 
 .project-date {
@@ -2002,7 +2010,7 @@ main>br {
     .back {
         z-index: 1;
           //transform: rotateY(180deg);
-        background-color: var(--green);
+        background-color: var(--sunshine-yellow);
     }
 
     // &.flipped,
@@ -2254,7 +2262,7 @@ tr {
             display: block;
             width: 20px;
             height: 20px;
-            background-color: var(--green);
+            background-color: var(--sunshine-yellow);
             margin-right: 16px;
         }
 
@@ -2499,7 +2507,7 @@ tr {
         padding: 15px 22px 3px;
         font-size: 15px;
         line-height: 22px;
-        background-color: var(--green);
+        background-color: var(--sunshine-yellow);
     }
 
     a {
@@ -2513,9 +2521,9 @@ tr {
             background-image: url("images/feature_search.svg");
         }
 
-        &.green,
-        &.lilac,
-        &.salmon {
+        &.sunshine-yellow,
+        &.purple,
+        &.seafoam-green {
             .card-title::after {
                 background-image: url("images/feature_search-dark.svg");
             }
@@ -2528,9 +2536,9 @@ tr {
             background-image: url("images/file.svg");
         }
 
-        &.green,
-        &.lilac,
-        &.salmon {
+        &.sunshine-yellow,
+        &.purple,
+        &.seafoam-green {
             .card-title::after {
                 background-image: url("images/file-dark.svg");
             }
@@ -2543,9 +2551,9 @@ tr {
             background-image: url("images/lightbulb2.svg");
         }
 
-        &.green,
-        &.lilac,
-        &.salmon {
+        &.sunshine-yellow,
+        &.purple,
+        &.seafoam-green {
             .card-title::after {
                 background-image: url("images/lightbulb2-dark.svg");
             }
@@ -2560,10 +2568,10 @@ tr {
     }
 
     /*colors*/
-    &.green {
+    &.sunshine-yellow {
 
         .card-title {
-            background-color: var(--green);
+            background-color: var(--sunshine-yellow);
             color: var(--text-color);
         }
 
@@ -2572,46 +2580,14 @@ tr {
         }
 
         &.numbered {
-            background-color: var(--green);
-        }
-    }
-
-    &.lilac {
-        .card-title {
-            background-color: var(--lilac);
-            color: var(--text-color);
-        }
-
-        .card-content {
-            background-color: var(--background-color);
-        }
-
-        &.numbered {
-            background-color: var(--lilac);
-
-        }
-    }
-
-    &.salmon {
-        .card-title {
-            background-color: var(--salmon);
-            color: var(--text-color);
-        }
-
-        .card-content {
-            background-color: var(--background-color);
-        }
-
-        &.numbered {
-            background-color: var(--salmon);
-
-
+            background-color: var(--sunshine-yellow);
         }
     }
 
     &.purple {
         .card-title {
             background-color: var(--purple);
+            color: var(--text-color);
         }
 
         .card-content {
@@ -2620,6 +2596,38 @@ tr {
 
         &.numbered {
             background-color: var(--purple);
+
+        }
+    }
+
+    &.seafoam-green {
+        .card-title {
+            background-color: var(--seafoam-green);
+            color: var(--text-color);
+        }
+
+        .card-content {
+            background-color: var(--background-color);
+        }
+
+        &.numbered {
+            background-color: var(--seafoam-green);
+
+
+        }
+    }
+
+    &.deep-violet {
+        .card-title {
+            background-color: var(--deep-violet);
+        }
+
+        .card-content {
+            background-color: var(--background-color);
+        }
+
+        &.numbered {
+            background-color: var(--deep-violet);
 
         }
     }
@@ -2746,7 +2754,7 @@ tr {
             }
 
             .card-title {
-                background-color: var(--green);
+                background-color: var(--sunshine-yellow);
 
                 &::after {
                     background-image: url("images/up-dark.svg");
@@ -2759,7 +2767,7 @@ tr {
             }
 
             .card-content {
-                background-color: var(--dimmer-green);
+                background-color: var(--sunshine-medium);
                 display: flex;
                 flex-direction: column;
                 height: auto;
@@ -3154,7 +3162,7 @@ footer {
 
     nav,
     .social {
-        margin-bottom: 30px
+        margin-bottom: 30px;
     }
 
     .links {
@@ -3175,9 +3183,17 @@ footer {
     .social {
         margin-left: auto;
         align-self: end;
+        display: flex;
+        align-items: center;
 
         a {
             margin-left: 25px;
+            display: flex;
+        }
+
+        .social-icon {
+            height: 24px;
+            width: auto;
         }
     }
 
@@ -3416,18 +3432,18 @@ footer {
         height: var(--ball-size);
         border-radius: 10px;
         position: absolute;
-        background-color: var(--salmon);
+        background-color: var(--seafoam-green);
         left: 0;
         transition: border-radius 0.4s ease, left 0.2s linear, background-color 0.8s ease;
 
         &.end {
             border-radius: 100px;
-            background: var(--green);
+            background: var(--sunshine-yellow);
         }
     }
 
     .fixed {
-        background: var(--purple);
+        background: var(--deep-violet);
         width: 100%;
         height: var(--ball-size);
         border-radius: 10px;
@@ -3606,7 +3622,7 @@ footer {
     }
 
     #filler6 {
-        background-color: var(--lilac);
+        background-color: var(--purple);
         //   transform: rotateX(180deg);
     }
 
@@ -3636,7 +3652,7 @@ footer {
     // }
 
     #filler1 {
-        background-color: var(--green);
+        background-color: var(--sunshine-yellow);
         //  transform: rotateY(180deg);
     }
 
@@ -3708,20 +3724,20 @@ footer {
     pointer-events: auto;
 }
 
-.ball-green .pill-inner::after {
-    background: var(--green);
+.ball-sunshine-yellow .pill-inner::after {
+    background: var(--sunshine-yellow);
 
 }
 
-.ball-salmon .pill-inner::after {
-    background: var(--salmon);
+.ball-seafoam-green .pill-inner::after {
+    background: var(--seafoam-green);
 
-}
-
-.ball-lilac .pill-inner::after {
-    background: var(--lilac);
 }
 
 .ball-purple .pill-inner::after {
     background: var(--purple);
+}
+
+.ball-deep-violet .pill-inner::after {
+    background: var(--deep-violet);
 }

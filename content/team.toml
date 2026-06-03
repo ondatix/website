@@ -1,6 +1,6 @@
 [[member]]
 name = "Julia von Bartenwerffer"
-email = "julia.von.bartenwerffer@stat.uni-muenchen.de"
+email = "julia.vonbartenwerffer@ondatix.org"
 image = "/images/team/juliavonbartenwerffer_1_1_format_m.jpg"
 description = "Julia von Barttenwerffer arbeitet als Projektmanagerin am Social Data Science and AI (SODA) Lab der Ludwig-Maximilians-Universität München. Durch ihre zehnjährige Erfahrung als Unternehmensberaterin und Projektmanagerin an der Schnittstelle von Strategie, Business und IT legt sie besonderen Wert auf praxisnahe, umsetzbare Lösungen. Sie ist überzeugt, dass der enge Austausch mit verschiedenen Stakeholdern entscheidend für den Erfolg eines Projekts ist. Ein Forschungsinteresse von Julia von Bartenwerffer ist die Frage, wie Technologie genutzt werden kann, um Lernen in verschiedenen Kontexten zu verbessern. Besonders interessiert sie sich dabei für den Kompetenzaufbau im öffentlichen Sektor sowie für die Schnittstelle zwischen Lerntechnologien und digitaler Gesundheit."
 social = [
@@ -10,7 +10,7 @@ social = [
 
 [[member]]
 name = "Dr. Heidi Seibold"
-email = "heidi.seibold@digiresacademy.org"
+email = "heidi.seibold@ondatix.org"
 image = "/images/team/heidi_seibold_1_1_format.jpg"
 description = "Heidi Seibold ist Gründerin der Digital Research Academy. Sie ist promovierte Statistikerin und beschäftigt sich heute vorrangig mit der Verbesserung der Qualität in Wissenschaft und Forschung. In ihrem beliebten Newsletter spricht sie über Open Science, gute Wissenschaft und die Zukunft der Forschung."
 social = [
@@ -21,7 +21,7 @@ social = [
 
 [[member]]
 name = "Dr. Jacob Beck"
-email = "info@jacobbeck.de"
+email = "jacob.beck@ondatix.org"
 image = "/images/team/jacob_beck_1_1_format.jpg"
 description = "Jacob Beck promovierte bis Herbst 2025 am Social Data Science and AI Lab (SODA) der LMU. Seine Forschung konzentrierte sich auf Datenqualität in der Entwicklung von KI-Modellen, auf effektive Mensch-KI-Kollaboration sowie auf das Brückenbauen zwischen Sozialwissenschaft und Künstlicher Intelligenz. Nachdem er 2021 selbst Stipendiat an der University of Warwick war, gründete und leitete er 2023 und 2024 das Data Science for Social Good-Programm am Munich Center for Machine Learning mit. Dort betreute er Projekte von Stipendiat:innen, die gemeinsam mit gemeinnützigen und öffentlichen Organisationen an datenbasierten Lösungen für die konkreten Herausforderungen dieser Partner arbeiteten. Auch bei ADA liegt sein Fokus auf der Übersetzungsarbeit zwischen technischer und fachlicher Perspektive, und darauf, Problemstellungen und Lösungsansätze gemeinsam klar zu definieren."
 social = [
@@ -30,9 +30,11 @@ social = [
 
 [[member]]
 name = "Leonhard Kestel"
-email = "leonhard.kestel@lmu.de"
+email = "leo.kestel@ondatix.org"
 image = "/images/team/leokestel_1_1_format_m.jpg"
-description = "Leonhard Kestel ist Doktorand am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit der Anwendung von Machine Learning Methoden in Sozial-, Geistes- und Geowissenschaften. Spezifisch interessiert er sich für eine faire und interpretierbare Nutzung von KI."
+description = "Leonhard Kestel ist Softwareentwickler und Doktorand am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit Neurosymbolischen Methoden für Vertrauenswürdige KI. Fairness und Erklärbarkeit von automatisierten Entscheidungen sind dabei wichtige Aspekte seiner Forschung. Im ADA Projekt arbeitet er mit Mitarbeitenden aus der öffentlichen Verwaltung zusammen, um gemeinsam an einem sinnvollen Umgang mit Daten im Behördenkontext."
 social = [
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/leo-kestel-548f9bb2.html" }
+  { title = "Website", url = "https://leokestel.de" },
+  { title = "LinkedIn", url = "https://www.linkedin.com/in/leonhard-kestel-9aa0bb323/" },
+  { title = "GitHub", url = "https://github.com/kestelnadomu" }
 ]
