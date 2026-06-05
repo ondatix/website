@@ -5,7 +5,7 @@
 - [ ] Texte ersetzen
 - [x] Hero Bar
 - [x] Entscheidung für GitHub-Link im Footer
-- [ ] Icons ersetzen
+- [x] Icons ersetzen
 - [ ] Personenseiten aufpolieren
 - [ ] Connection zu ADA herstellen
 - [ ] Domain hinzufügen
@@ -41,55 +41,6 @@ In order to build the website without a local server, use
 ```bash
 zola build
 ```
-
-## Website Navigation 
-
-### Main Navigation Bar
-1. **Projekte** (`/projekte`) - Project portfolio showcasing data science projects for public administration
-2. **Was Wir Bieten** (`/was-wir-bieten`) - Services offered including workshops and consulting
-3. **Wer wir sind** (`/wer-wir-sind`) - Team and organization information
-4. **Suche** (`#search`) - Search functionality 
-
-### Footer Navigation
-1. **Impressum & Datenschutz** (`/impressum`) - Legal notice and privacy policy
-2. **Kontakt** (`/impressum`) - Contact information
-3. **Github** (`https://github.com/ada-bayern/`) - GitHub repository
-
-### Content Sections
-- **Project Portfolio**: Individual data science projects for public administration
-- **Workshop Documentation**: Materials and case studies
-- **Team Profiles**: Detailed information about team members
-- **Service Information**: Four-phase project methodology
-
-## Buttons and Interactive Elements
-
-### Primary Action Buttons
-- **"Mehr lesen" Button**: Homepage hero section → Links to "Was Wir Bieten" page
-- **"Kontaktieren Sie uns" Buttons**: Three instances on homepage cards → All link to contact page
-- **Search Button**: Main navigation → Activates site-wide search functionality
-
-### Social Media & External Links
-- **LinkedIn Button**: Links to [ADA Bayern LinkedIn](https://www.linkedin.com/company/ada-bayern/)
-- **Instagram Button**: Links to Instagram profile
-- **Partner Logo Buttons**: Clickable logos linking to partner websites
-- **Team Profile Links**: Individual websites, LinkedIn profiles, and LMU academic profiles
-
-### Resource Access
-- **Project Resource Links**: Download buttons for workshop materials and PDFs
-- **External Documentation Links**: Links to relevant external resources
-- **Newsletter Subscription**: Available on select pages for user engagement
-
-### Partner Organizations
-- **BERD@NFDI**: [https://berd.nfdi.de](https://berd.nfdi.de)
-- **LMU Munich**: [https://www.lmu.de](https://www.lmu.de)
-- **Bayerische Staatsministerium für Digitales**: [https://www.stmd.bayern.de/ministerium/organisation/](https://www.stmd.bayern.de/ministerium/organisation/)
-
-
-
-### Online Presence
-- **Website**: https://ada-oeffentliche-verwaltung.de/
-- **LinkedIn**: [https://www.linkedin.com/company/ada-bayern/](https://www.linkedin.com/company/ada-bayern/)
-- **GitHub**: [https://github.com/ada-bayern/](https://github.com/ada-bayern/)
 
 ## Project Structure
 

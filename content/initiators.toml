@@ -4,6 +4,11 @@ logo = "images/initiators/Logo_SODA.png"
 url = "https://www.stat.lmu.de/soda"
 
 [[partner]]
+name = "ADA"
+logo = "images/initiators/Logo_ADA.svg"
+url = "https://ada-oeffentliche-verwaltung.de"
+
+[[partner]]
 name = "LMU Munich"
 logo = "images/initiators/Logo_LMU.svg"
 url = "https://www.lmu.de"
