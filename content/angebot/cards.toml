@@ -1,0 +1,21 @@
+[[card]]
+title = "Open Source Software"
+content = "Wir entwickeln datenschutzkonforme und barrierefreie Datenlösungen für den öffentlichen Sektor.<br><br>Unsere Produkte werden unter Open Source Lizenzen zur Verfügung gestellt.<br><br>Dadurch ist es unseren Kunden möglich, unsere Produkte selbst auf die eigenen Bedarfe anzupassen und zu betreiben.<br><br>Alternativ können die Produkte von uns als Software as a Service bezogen werden.<br><br>Siehe hier unser erstes Produkt reportix. reportix macht es möglich, aus unterschiedlichsten Datenquellen ein einheitliches Reporting zu erstellen."
+type = "numbered"
+color = "seafoam-green"
+
+
+[[card]]
+title = "Beratung, Change Management und Support"
+content = "Die beste technische Lösung scheitert, wenn ihre Einführung in der Organisation nicht ausreichend vorbereitet und begleitet wird.<br><br>Dies umfasst eine gute Datengrundlage, passende Prozesse aber auch die Einbeziehung und Schulung der künftigen Anwender:innen.<br><br>Wir beraten und unterstützen bei der Gestaltung von Prozessen und Datengrundlage. <br><br>Change Management und Befähigung sind fester Bestandteil unserer Projekte. Auch beim Aufsetzen des eigenständigen Betriebs unterstützen wir."
+type = "numbered"
+color = "purple"
+
+[[card]]
+title = "Entwicklung eigener KI-Modelle"
+content = "Wir beraten zur Entwicklung eigener KI-Modelle und unterstützen bei der Umsetzung.<br><br>Dies umfasst die Erhebung der Datenbasis für die KI und die Erstellung von Trainingsdatensätzen sowie das eigentliche Training des KI-Modells."
+type = "numbered"
+color = "sunshine-yellow"
+
+ 
+

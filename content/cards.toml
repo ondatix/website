@@ -1,20 +1,20 @@
 [[card]]
 title = ""
-content = "Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit Daten befähigen."
+content = "Wir entlasten Sie bei Routineaufgaben und ermöglichen <b>Effizienzgewinne und Kostensenkungen</b> durch Automatisierung und Vereinfachung von Verwaltungsprozessen."
 type = ""
 color = "sunshine-yellow"
 link={url="/impressum", text="Kontaktieren Sie uns"}
 
 [[card]]
 title = ""
-content = "Wir wollen echte Probleme verstehen und danach gemeinsam pragmatisch lösen."
+content = "Daten sind unser Spezialgebiet und wir wollen, dass Sie <b>Ihren Datenschatz heben</b>. Wir öffnen Wege für eine bessere und sinnvolle Nutzung von Verwaltungsdaten."
 type = ""
-color = "purple"
+color = "seafoam-green"
 link={url="/impressum", text="Kontaktieren Sie uns"}
 
 [[card]]
 title = ""
-content = "Wir wollen Expertise aus verschiedenen Bereichen zusammenbringen."
+content = "Bei uns zahlen Sie NICHT mit Ihren Daten. Sie behalten die volle <b>Souveränität über Daten und Code</b> und bleiben dadurch anbieterunabhängig."
 type = ""
-color = "seafoam-green"
+color = "purple"
 link={url="/impressum", text="Kontaktieren Sie uns"}

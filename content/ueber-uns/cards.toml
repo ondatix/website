@@ -1,0 +1,21 @@
+[[card]]
+title = "Wissenschaftlicher Hintergrund"
+content = "Wissenschaftlicher Hintergrund in Data Science, KI und Sozialwissenschaften."
+type = "numbered"
+color = "seafoam-green"
+
+
+[[card]]
+title = "Praktische Erfahrung"
+content = "Berufserfahrung in Softwareentwicklung, Projektleitung und Change Management in Digitalisierungsvorhaben."
+type = "numbered"
+color = "purple"
+
+[[card]]
+title = "Öffentliche Verwaltung"
+content = "Besonderes Verständnis für die Anforderungen und Besonderheiten der öffentlichen Verwaltung."
+type = "numbered"
+color = "sunshine-yellow"
+
+ 
+

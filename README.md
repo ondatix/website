@@ -70,11 +70,11 @@ Contains all website content organized hierarchically:
   - `_index.md` - Projects landing page template configuration
   - Individual project folders 
   - Workshop documentation with modules and resource links
-- **`was-wir-bieten/`** - Services section
+- **`angebot/`** - Services section
   - `index.md` - Service descriptions and methodology
   - `cards.toml` - Four-phase project workflow cards (preparation, workshop, follow-up, post-ADA)
 
-- **`wer-wir-sind/`** - About Us section
+- **`ueber-uns/`** - About Us section
   - `index.md` - Team introduction and organizational information
 - **`impressum/`** - Legal section
   - `index.md` - Legal notice, privacy policy, and contact information 

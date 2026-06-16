@@ -63,7 +63,19 @@ html {
 
 .bg-dark {
 
-    background-color: var(--text-color);
+    background-color: var(--deep-violet);
+    color: var(--background-color);
+
+    //    border-bottom: 1px solid var(--background-color);
+    &.container {
+        //  background-color: var(--text-color);
+        //    color: var(--background-color);
+    }
+}
+
+.bg-violet {
+
+    background-color: var(--deep-violet);
     color: var(--background-color);
 
     //    border-bottom: 1px solid var(--background-color);
