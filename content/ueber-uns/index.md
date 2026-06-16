@@ -16,13 +16,9 @@ ondatix geht aus ADA Angewandte Datenanalyse für die öffentliche Verwaltung he
 
 Als frisch gegründetes Unternehmen stehen wir noch am Anfang unserer eigenen Erfolgsgeschichte. Dennoch haben wir als Teil des ADA-Teams bereits zahlreiche Data Science Projekte mit der öffentlichen Verwaltung erfolgreich umgesetzt und dabei die Arbeitsweise entwickelt, die heute das Fundament von ondatix bildet.
 
-Einen Einblick in diese Projekte gibt es auf der Website von ADA.
+Einen Einblick in diese Projekte gibt es auf der [Website von ADA](https://ada-oeffentliche-verwaltung.de).
 
 {% end%}  
-
-
-
-<!-- {{special()}} -->
 
 
 {{side_text_block(title="Was uns ausmacht", size="big", bg="light", compressed="true", text_align="left")}}
