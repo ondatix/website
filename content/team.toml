@@ -32,7 +32,7 @@ social = [
 name = "Leonhard Kestel"
 email = "leo.kestel@ondatix.org"
 image = "/images/team/leokestel_1_1_format_m.jpg"
-description = "Leo ist Softwareentwickler und Data Scientist. Neben ondatix promoviert er am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit Neurosymbolischen Methoden für Vertrauenswürdige KI. Fairness und Erklärbarkeit von automatisierten Entscheidungen sind dabei wichtige Aspekte seiner Forschung. Im ADA Projekt arbeitet er mit Mitarbeitenden aus der öffentlichen Verwaltung zusammen, um gemeinsam an einem sinnvollen Umgang mit Daten im Behördenkontext. Bei ondatix ist er Lead Developer und CTO."
+description = "Leo ist Softwareentwickler und Data Scientist. Neben ondatix promoviert er am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit Neurosymbolischen Methoden für Vertrauenswürdige KI. Fairness und Erklärbarkeit von automatisierten Entscheidungen sind dabei wichtige Aspekte seiner Forschung. Im ADA-Projekt arbeitet er mit Verwaltungsmitarbeitenden an einem sinnvollen Umgang mit Behördendaten. Bei ondatix ist er Lead Developer und CTO."
 social = [
   { title = "Website", url = "https://leokestel.de" },
   { title = "LinkedIn", url = "https://www.linkedin.com/in/leonhard-kestel-9aa0bb323/" },
