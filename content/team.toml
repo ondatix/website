@@ -23,7 +23,7 @@ social = [
 name = "Dr. Jacob Beck"
 email = "jacob.beck@ondatix.org"
 image = "/images/team/jacob_beck_1_1_format.jpg"
-description = "Jacob ist promovierter Statistiker. Seine Forschung konzentriert sich auf Datenqualität in der Entwicklung von KI-Modellen, effektive Mensch-KI-Kollaboration sowie das Brückenbauen zwischen Sozialwissenschaft und Künstlicher Intelligenz. Er war Mitgründer und Projektverantwortlicher des Data Science for Social Good-Programms am Munich Center for Machine Learning. Bei ondatix ist er Co-CEO und Data Scientist.“
+description = "Jacob ist promovierter Statistiker. Seine Forschung konzentriert sich auf Datenqualität in der Entwicklung von KI-Modellen, effektive Mensch-KI-Kollaboration sowie das Brückenbauen zwischen Sozialwissenschaft und Künstlicher Intelligenz. Er war Mitgründer und Projektverantwortlicher des Data Science for Social Good-Programms am Munich Center for Machine Learning. Bei ondatix ist er Co-CEO und Data Scientist."
 social = [
   { title = "LinkedIn", url = "https://www.linkedin.com/in/dr-jacob-beck-8b51a5193" }
 ]
