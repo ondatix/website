@@ -62,27 +62,19 @@ html {
 }
 
 .bg-dark {
-
     background-color: var(--deep-violet);
     color: var(--background-color);
 
     //    border-bottom: 1px solid var(--background-color);
-    &.container {
+    // &.container {
         //  background-color: var(--text-color);
         //    color: var(--background-color);
-    }
+    // }
 }
 
 .bg-violet {
-
     background-color: var(--deep-violet);
     color: var(--background-color);
-
-    //    border-bottom: 1px solid var(--background-color);
-    &.container {
-        //  background-color: var(--text-color);
-        //    color: var(--background-color);
-    }
 }
 
 .purple {
@@ -410,7 +402,7 @@ li.tab.search {
 
 @mixin reverse {
     color: var(--background-color);
-    background-color: var(--text-color);
+    background-color: var(--deep-violet);
 }
 
 @mixin small-text {
@@ -538,8 +530,11 @@ header {
 
     .logo-text {
         display: none;
-        margin-left: 20px;
+        height: calc(var(--header-height));
+        width: auto;
+        margin-left: 0;
         margin-top: -3px;
+        transform: translateY(10px);
     }
 
     .logo-text.hide-small {
@@ -1340,7 +1335,7 @@ main>br {
         color: var(--medium-gray);
         border: 1px solid var(--medium-gray);
         border-bottom: none;
-        background-color: var(--text-color);
+        // background-color: var(--text-color);
         order: 0;
 
         &:not(.active) {
@@ -1398,7 +1393,7 @@ main>br {
                 height: 100%;
                 width: 29px;
                 border-top: 1px solid var(--medium-gray);
-                background-color: var(--text-color);
+                background-color: var(--deep-violet);
             }
 
             a {
@@ -1998,7 +1993,7 @@ main>br {
 .type {
     color: var(--background-color);
     border-radius: 4px;
-    background-color: var(--text-color);
+    background-color: var(--deep-violet);
 }
 
 .bg-dark .type {
@@ -2281,11 +2276,11 @@ tr {
         font-weight: 300;
         top: 0px;
         transform: translateY(-100%);
-        background-color: var(--text-color);
+        background-color: var(--deep-violet);
         padding: 24px 24px 0;
         padding-left: var(--big-padding);
         left: 0;
-        background-color: var(--text-color);
+        background-color: var(--deep-violet);
         border-top-left-radius: 20px;
         // background-image: url(images/tab.svg);
         // background-color: transparent;
@@ -2490,7 +2485,7 @@ tr {
         font-size: 15px;
         line-height: 21px;
         padding: 10px 22px;
-        background-color: var(--text-color);
+        background-color: var(--deep-violet);
         color: var(--background-color);
 
         &::after {
@@ -2708,7 +2703,7 @@ tr {
             border-radius: 40px;
             width: 32px;
             height: 32px;
-            background-color: var(--text-color);
+            background-color: var(--deep-violet);
             color: var(--background-color);
             font-size: 22px;
             font-weight: 300;
@@ -2837,7 +2832,7 @@ tr {
         }
 
         .card-content {
-            background-color: var(--text-color);
+            background-color: var(--deep-violet);
 
             a {
                 color: var(--background-color);
@@ -3112,7 +3107,7 @@ tr {
     }
 
     input[type="submit"] {
-        background-color: var(--text-color);
+        background-color: var(--deep-violet);
         color: var(--background-color);
         padding: 15px;
         border-radius: 40px;
@@ -3407,7 +3402,7 @@ footer {
     right: 0;
     opacity: 0;
     transition: opacity 0.15s ease;
-    background-color: var(--text-color);
+    background-color: var(--deep-violet);
 
     &.loaded {
         opacity: 1;
