@@ -34,6 +34,7 @@ Use zola to run the website locally. You can either [install zola globally](http
 
 ```bash
 zola serve
+.\zola.exe serve   
 ```
 
 In order to build the website without a local server, use
