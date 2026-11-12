@@ -40,7 +40,7 @@
                 {% if link.class %}
                 {% set class=link.class %}
                 {% endif %}
-                {{ <navbar_tab url={link.url} text={link.title} text_class="link" class={class} current_path={current_path} lang={lang} /> }}
+                {{ <navbar_tab url={link.url} text={link.title} text_class="link" class={class} current_path={current_path} lang={lang} config={config} /> }}
                 {% endfor %}
                 {% endif %}
 
