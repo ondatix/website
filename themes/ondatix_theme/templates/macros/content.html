@@ -46,11 +46,11 @@
 </a>
 {% endcomponent %}
 
-{% component navbar_tab(url, text, text_class, current_path, lang, class="") %}
+{% component navbar_tab(url, text, text_class, current_path, lang, config, class="") %}
 <li {% if current_path and ((url !="" and url in current_path) or (url=="" and current_path | trim_end(pat=lang
     ~'/') | trim_end(pat='/' )=="" )) %} class="tab active" {# Highlight button, if button URL is part of the
     current path. #} {% else %} class="tab {% if class %}{{ class }}{% endif %}" {% endif %}>
-    <a href="{{ url }}">
+    <a href="{{ <base_path config={config} /> }}{{ url }}">
         <span class="{{ text_class }}">{{ text }}</span>
     </a>
 </li>
