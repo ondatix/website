@@ -18,7 +18,7 @@
         {%- for client in data.client %}
         <div class="client">
             <a href="{{ client.url }}" target="_blank">
-                <img src="{{ <base_path config={config} /> }}{{ client.logo }}" alt="{{ client.name }}">
+                <img src="{{ <base_path config={config} /> }}{{ client.logo }}" alt="{{ client.name }}"{% if client.height %} style="max-height: {{ client.height }}px"{% endif %}>
             </a>
         </div>
         {%- endfor %}
