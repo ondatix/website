@@ -1552,7 +1552,7 @@ main>br {
     width: 100%;
 
     a {
-        color: var(--medium-gray);
+        color: var(--purple);
         @include small-text;
     }
 }
@@ -1633,20 +1633,6 @@ main>br {
         .back {
             //     min-height: 25vw; // styles for front and back elements
         }
-    }
-}
-
-.project:not(.current) {
-    display: none;
-}
-
-.previous {
-    .project.current {
-        display: none;
-    }
-
-    .project:not(.current) {
-        display: block;
     }
 }
 
@@ -2108,8 +2094,56 @@ main>br {
 
 }
 
+/* Schema, z. B. Daten ⟶ reportix ⟶ Bericht */
+.flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin: 30px 0;
+
+    .flow-step {
+        padding: 14px 20px;
+        border: 1px solid var(--text-color);
+        border-radius: 14px;
+
+        &.highlight {
+            background-color: var(--sunshine-yellow);
+            border-color: var(--sunshine-yellow);
+            font-weight: 500;
+        }
+    }
+
+    .flow-arrow {
+        font-size: 24px;
+    }
+}
+
+.cta {
+    margin-top: 40px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: var(--sunshine-light);
+
+    p {
+        margin-top: 0;
+    }
+}
+
 .project-content {
     --project-gap: 30px;
+
+    // Listen im Fließtext: gleicher Abstand nach unten wie Absätze, Einleitungssatz rückt näher heran
+    .right {
+        ul,
+        ol {
+            margin-bottom: 32px;
+        }
+
+        p:has(+ ul, + ol) {
+            margin-bottom: 12px;
+        }
+    }
     display: flex;
     flex-wrap: wrap;
     gap: var(--project-gap);

@@ -25,25 +25,15 @@
 
                 </div>
                 <div class="tags">
-                    {% if project.extra.type %}
-                    {% for type in project.extra.type %}
-                    <span class="type">{{ type }}</span>
+                    {% for type in project.taxonomies.type | default(value=[]) %}
+                    <a class="type" href="{{ get_taxonomy_url(kind='type', name=type) }}">{{ type }}</a>
                     {% endfor %}
-                    {% endif %}
-
-                    {% if project.extra.tags %}
-                    {% for tag in project.extra.tags %}
-                    <span class="tag">{{ tag }}</span>
+                    {% for tag in project.taxonomies.tag | default(value=[]) %}
+                    <a class="tag" href="{{ get_taxonomy_url(kind='tag', name=tag) }}">{{ tag }}</a>
                     {% endfor %}
-                    {% endif %}
                 </div>
                 <div class="project-date">
-                    <span class="start-date">{{ project.extra.start_date |date(format="MMMM yyyy", locale="de_DE") }}</span>
-                    {% if project.extra.end_date %}<span class="start-date"> - {{ project.extra.end_date
-                        |date(format="%B
-                        %Y",
-                        locale="de_DE")
-                        }}</span>{% endif %}
+                    {{ <project_dates project={project} /> }}
                 </div>
                 {% if project.title %}<h1 class="project-title">{{ project.title }}</h1>{% endif %}
 
@@ -52,7 +42,7 @@
     </div>
 </div>
 
-<div class="content {% if project.subsections | length > 0 %}has-subsections{% endif %}">
+<div class="content {% if project.subsections | default(value=[]) | length > 0 %}has-subsections{% endif %}">
     <div id="start"></div>
     <div class="top-tabs ">
         <div class="tab {% if main_project %}active{% endif %}">
@@ -60,7 +50,7 @@
                 Projektübersicht
             </a>
         </div>
-        {% if project.subsections | length > 0 %}
+        {% if project.subsections | default(value=[]) | length > 0 %}
         <div class="tab {% if not main_project %}active{% endif %}">
             {% set serie=get_section(path=project.subsections[0]) %}
 
@@ -156,26 +146,18 @@
                     <div class="related-projects">
                         {% for rel_project in section.extra.related_projects %}
                         <div class="related-project">
-                            {% set rel_project = get_section(path=rel_project.path) %}
-                           
-                           
+                            {% set rel_project = get_page(path=rel_project.path) %}
                             <div class="tags">
-                            {% for type in rel_project.extra.type %}
+                            {% for type in rel_project.taxonomies.type | default(value=[]) %}
                                 <span class="type">{{ type }}</span>
                             {% endfor %}
-                            {% for tag in rel_project.extra.tags %}
+                            {% for tag in rel_project.taxonomies.tag | default(value=[]) %}
                             <span class="tag">{{ tag }}</span>
                             {% endfor %}
                             </div>
                             <a class="title" href="{{ rel_project.permalink }}">{{ rel_project.title }}</a>
                             <div class="related-project-date">
-                                <span class="start-date">{{ rel_project.extra.start_date |date(format="MMMM yyyy",
-                                    locale="de_DE")
-                                    }}</span>
-                                {% if rel_project.extra.end_date %}<span class="start-date"> - {{
-                                    rel_project.extra.end_date
-                                    |date(format="MMMM yyyy", locale="de_DE")
-                                    }}</span>{% endif %}
+                                {{ <project_dates project={rel_project} /> }}
                             </div>
                             <div class="rel-project-link">
                                 <a href="{{ rel_project.permalink }}"></a>

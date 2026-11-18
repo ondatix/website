@@ -304,3 +304,41 @@ url('{{ image.url }}') 1x{#{{ w }}w Absolute sizes aren't supported yet #}
     %}class="{{ class | safe }}{% if meta.width> meta.height%} landscape {%endif %}" {% endif %} {% if attrs !="" %}{{
     attrs | safe }}{% endif %}>
 {%- endcomponent %}
+
+
+{# Projektkarte für Projektliste und Schlagwort-Seiten #}
+{% component project_card(project) %}
+<div class="project">
+    <a href="{{ project.permalink }}" class="project-link">
+        <div class="front">
+            <div class="tags">
+                {% for type in project.taxonomies.type | default(value=[]) %}
+                <span class="type">{{ type }}</span>
+                {% endfor %}
+                {% for tag in project.taxonomies.tag | default(value=[]) %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            <h3>{{ project.title }}</h3>
+            <div class="project-date">
+                {{ <project_dates project={project} /> }}
+            </div>
+        </div>
+        <div class="back">
+            <div class="project-description">
+                <p>{{ project.description }}</p>
+            </div>
+            {% if project.extra.logo %}
+            <div class="project-logo">
+                <img src="{{ project.permalink ~ project.extra.logo }}" alt="Logo">
+            </div>
+            {% endif %}
+        </div>
+    </a>
+</div>
+{% endcomponent %}
+
+{% component project_dates(project) %}
+{% if project.date %}<span class="start-date">{{ project.date | date(format="MMMM yyyy", locale="de_DE") }}</span>{% endif %}
+{% if project.extra.end_date %}<span class="end-date"> - {{ project.extra.end_date | date(format="MMMM yyyy", locale="de_DE") }}</span>{% endif %}
+{% endcomponent %}
