@@ -33,7 +33,7 @@ lazy_async_image = true
 
 [extra.navbar]
 links = [
-    # { url = "projekte", title = "Projekte" },
+    { url = "projekte", title = "Projekte & Produkte" },
     { url = "angebot", title = "Angebot" },
     { url = "ueber-uns", title = "Über uns" },
     { url = "#search", title = "Suche" , class="search"},
