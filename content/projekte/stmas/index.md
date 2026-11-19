@@ -1,5 +1,5 @@
 +++
-title="Teil-automatisierte Erstellung von Gleichstellungskonzepten"
+title="Teilautomatisierte Erstellung von Gleichstellungskonzepten"
 description="Um die Gleichstellung in bayerischen Behörden zu fördern, werden regelmäßig Gleichstellungskonzepte erstellt. Auf Basis von gemeinsam erarbeiteten Musterkonzepten und in Integration mit unserer Software reportix kann dies nun teilautomatisiert werden."
 date=2026-06-01
 

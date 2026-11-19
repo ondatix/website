@@ -37,7 +37,6 @@ Die Daten dafür verwalten die berichtenden Stellen jedoch selbst – in einer V
 Genau hier setzt reportix an: Nutzer:innen erstellen einen vorgegebenen Bericht teilautomatisiert, unabhängig von der vorhandenen IT-Landschaft.
 Die eingespielten Daten werden innerhalb von Sekunden in einen vorbefüllten Bericht mit allen geforderten Grafiken und Tabellen überführt – statt sie aufwändig von Hand oder mit selbstgebauten Excel-Grafiken aufzubereiten.
 Sowohl die Anwendung als auch die erzeugten Berichte sind barrierefrei.
-reportix ist Open Source, der Quellcode liegt [auf GitHub](https://github.com/ondatix/reportix).
 
 Davon profitieren beide Seiten:
 
@@ -63,7 +62,7 @@ Sie haben eine Berichtspflicht, die Sie vereinfachen möchten?
 Zum ersten Mal eingesetzt wird reportix für die [Gleichstellungskonzepte bayerischer Dienststellen](@/projekte/stmas/index.md), gemeinsam mit dem Bayerischen Staatsministerium für Familie, Arbeit und Soziales (StMAS).
 Die Herausforderung: eine heterogene Landschaft von Behörden – von der kommunalen Ebene bis zur Staatsverwaltung – mit ganz unterschiedlichen Systemen für Personaldaten.
 
-In einer Workshopserie im Rahmen von [ADA](https://ada-oeffentliche-verwaltung.de) wurde mit den Beteiligten ein einheitliches Musterkonzept samt Datengrundlage erarbeitet.
+In einer Workshopserie wurde mit den Beteiligten ein einheitliches Musterkonzept samt Datengrundlage erarbeitet.
 Auf dieser Basis wurde reportix so angepasst, dass es dem Musterkonzept entspricht.
 Damit erleichtert reportix die Erstellung der Gleichstellungskonzepte in ganz Bayern und ermöglicht eine bessere Gleichstellungsarbeit in den Dienststellen wie im Ministerium.
 

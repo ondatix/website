@@ -1,5 +1,5 @@
 +++
-title="Projekte"
+title="Projekte & Produkte"
 description="Aktuelle und abgeschlossene Projekte der ondatix Datenwerkstatt."
 template="project-list.html"
 page_template="project.html"
