@@ -9,7 +9,7 @@ type=["Produkt"]
 tag=["Open Source", "Reporting"]
 
 [extra]
-logo="Logo.png"
+logo="Logo_dunkel.png"
 resources=[
   { title = "reportix auf GitHub", url = "https://github.com/ondatix/reportix" },
 ]
