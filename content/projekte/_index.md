@@ -1,7 +1,8 @@
 +++
+title="Projekte & Produkte"
+description="Aktuelle und abgeschlossene Projekte der ondatix Datenwerkstatt."
 template="project-list.html"
-title="Projekte"
+page_template="project.html"
+sort_by="date"
 extra.sliding_footer=true
-description=""
-sort_by="weight"
-+++ 
++++

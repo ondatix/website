@@ -1,8 +1,23 @@
 {% extends "base.html" %}
-
-
-
+{% block hero %}
+<div class="hero bg-dark">
+    <div class="container">
+        <div class="container-wrapper">
+            <div class="project-header">
+                <h1 class="project-title">{% if taxonomy.name == "type" %}Projektarten{% else %}Schlagwörter{% endif %}</h1>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock hero %}
 {% block content %}
-
-
-{% endblock %}
+<div class="container">
+    <div class="container-wrapper">
+        <div class="tags taxonomy-terms">
+            {% for term in terms %}
+            <a class="{{ taxonomy.name }}" href="{{ term.permalink }}">{{ term.name }} ({{ term.pages | length }})</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock content %}
