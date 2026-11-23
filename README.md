@@ -1,18 +1,10 @@
-# ondatix Website Documentation
+# ondatix Website
 
-## TODO
-- [x] VAT ins Impressum
-- [ ] Texte ersetzen
-- [x] Hero Bar
-- [x] Entscheidung für GitHub-Link im Footer
-- [x] Icons ersetzen
-- [ ] Personenseiten aufpolieren
-- [ ] Connection zu ADA herstellen
-- [ ] Domain hinzufügen
+Source of [ondatix.de](https://ondatix.de), built with [Zola](https://www.getzola.org).
 
 ## Technologies Used
 
-- **Static Site Generator**: Zola 
+- **Static Site Generator**: Zola
 - **Styling**: SCSS/Sass with custom components
 - **Templates**: Custom HTML templates with Zola shortcodes
 - **Search**: ElasticLunr JSON search index
@@ -20,21 +12,12 @@
 - **Configuration**: TOML files for content management
 
 
-## Setup & Requirements
-
-To run build and serve the website, install **zola** from [https://github.com/getzola/zola/releases](https://github.com/getzola/zola/releases) and place the binary in the root of this repo.
-
-Additional requirements:
-- **Build Tools**: Sass compilation enabled
-- **Search Index**: Automatic generation enabled
-
 ## Running the Website
 
 Use zola to run the website locally. You can either [install zola globally](https://www.getzola.org/documentation/getting-started/installation/) via your package manager or [download the binary](https://www.getzola.org/documentation/getting-started/cli-usage/) and place it in the root of the website (in that case use `./zola` instead of `zola` for the following commands).
 
 ```bash
 zola serve
-.\zola.exe serve   
 ```
 
 In order to build the website without a local server, use
@@ -45,11 +28,10 @@ zola build
 
 ## Project Structure
 
-The website uses a content management system with:
+The website is organized as follows:
 - **Content Organization**: Markdown files with TOML frontmatter
 - **Data Files**: TOML files for team members, cards, and partner information
 - **Custom Theme**: ADA_Theme with specialized templates and styling
-
 - **SEO Optimization**: Metadata and search functionality
 
 ## Folder Structure
@@ -74,7 +56,6 @@ Contains all website content organized hierarchically:
 - **`angebot/`** - Services section
   - `index.md` - Service descriptions and methodology
   - `cards.toml` - Four-phase project workflow cards (preparation, workshop, follow-up, post-ADA)
-
 - **`ueber-uns/`** - About Us section
   - `index.md` - Team introduction and organizational information
 - **`impressum/`** - Legal section
@@ -105,4 +86,3 @@ Auto-generated directory containing the compiled website:
 - **`images/`** - Optimized images and processed graphics
 - **`search_index.de.json`** - Search index for site search
 - **`elasticlunr.min.js`** - Search engine JavaScript library
-
