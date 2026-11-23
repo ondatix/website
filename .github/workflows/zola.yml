@@ -1,4 +1,4 @@
-name: Deploy Zola site to GitHub Pages
+name: Deploy Zola site to mittwald Container Hosting
 
 on:
   push:
@@ -7,21 +7,18 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: "pages"
+  group: "mittwald-deploy"
   cancel-in-progress: true
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/configure-pages@v5
-        id: pages
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Install Zola
         run: |
@@ -31,19 +28,15 @@ jobs:
           echo "$PWD" >> $GITHUB_PATH
 
       - name: Build site
-        run: |
-          zola build --base-url "${{ steps.pages.outputs.base_url }}/"
+        run: zola build
 
-      - uses: actions/upload-pages-artifact@v3
+      # zerodeploy builds the container from public/ (Railpack detects
+      # the static index.html) and deploys it.
+      - name: Deploy with zerodeploy
+        uses: mittwald/zerodeploy-action@v2
         with:
-          path: public
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          mittwald-api-token: ${{ secrets.MITTWALD_API_TOKEN }}
+          mittwald-project-id: "p-m73e7w"
+          repo-subpath: ./public
+          service-name: website
+          image-tag: ${{ github.sha }}
